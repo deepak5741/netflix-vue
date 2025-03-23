@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../src/assets/images/netflixbg.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-blend-mode: darken;
+}
+.bg-black {
+  background-color: transparent !important;
+}
